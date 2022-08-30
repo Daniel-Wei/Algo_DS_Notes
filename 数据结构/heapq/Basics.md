@@ -11,7 +11,7 @@
     - 重复比较新插入节点与最近根节点的数值
     - swap if necessary, until max/min heap
  
- - Poll
-  - 删除根节点
-  - 新的root: last leaf
-  - 比较替换新的left tree的根节点子节点
+  - Poll
+    - 删除根节点
+    - 新的root: last leaf
+    - 比较替换新的left tree的根节点子节点
