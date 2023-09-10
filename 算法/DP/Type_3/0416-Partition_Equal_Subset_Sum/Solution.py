@@ -1,3 +1,5 @@
+### Time: 1020 ms (76.00%), Space: 14 MB (91.68%)
+
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         if sum(nums) % 2 != 0:
