@@ -1,3 +1,5 @@
+Time: 104 ms (84.68%), Space: 40.7 MB (80.65%)
+
 public class Solution {
     public bool CanPartition(int[] nums) {
         if(nums.Sum() % 2 != 0){
