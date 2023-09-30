@@ -1,3 +1,5 @@
+#should be delated
+
 class Solution:
     def lastStoneWeightII(self, stones: List[int]) -> int:
         memo = [set() for _ in range(len(stones))]
