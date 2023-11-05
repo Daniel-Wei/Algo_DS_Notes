@@ -1,4 +1,4 @@
-## Time: 75 ms (100.00%), Space: 39.3 MB (87.50%)
+### Time: 75 ms (100.00%), Space: 39.3 MB (87.50%)
 
 public class Solution {
     private int n;
