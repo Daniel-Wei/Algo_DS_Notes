@@ -1,3 +1,5 @@
+// Time: 83 ms (28.82%), Space: 47.3 MB (28.43%)
+
 public class Solution {
     public int LengthOfLongestSubstring(string s) {
         if(s.Length == 0){
