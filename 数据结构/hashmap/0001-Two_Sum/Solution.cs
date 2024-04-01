@@ -1,3 +1,5 @@
+// Time: 108 ms (91.96%), Space: 48.2 MB (13.83%)
+
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
         Dictionary<int, int> dict = new Dictionary<int, int>();
