@@ -1,3 +1,5 @@
+// Time: 67 ms (19.14%), Space: 40.3 MB (77.78%)
+
 public class Solution {
     public int CountStudents(int[] students, int[] sandwiches) {
         Queue<int> q = new Queue<int>(students);
