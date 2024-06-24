@@ -8,9 +8,9 @@ B((Set))
 C((Queue))
 D((List))
 
-A -> B
-A -> C
-A -> D
+A->B
+A->C
+A->D
 
 
 ```
