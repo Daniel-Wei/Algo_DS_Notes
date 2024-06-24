@@ -1,7 +1,7 @@
 ### 数据结构
 
 ```mermaid 
-graph TB;
+graph LR;
 
 A((Collection))
 B((Set))
