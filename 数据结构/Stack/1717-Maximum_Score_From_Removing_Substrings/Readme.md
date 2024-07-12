@@ -3,15 +3,15 @@
 <ul>
 	<li>Remove substring <code>"ab"</code> and gain <code>x</code> points.
 
-	<ul>
-		<li>For example, when removing <code>"ab"</code> from <code>"c<u>ab</u>xbae"</code> it becomes <code>"cxbae"</code>.</li>
-	</ul>
-	</li>
-	<li>Remove substring <code>"ba"</code> and gain <code>y</code> points.
-	<ul>
-		<li>For example, when removing <code>"ba"</code> from <code>"cabx<u>ba</u>e"</code> it becomes <code>"cabxe"</code>.</li>
-	</ul>
-	</li>
+<ul>
+	<li>For example, when removing <code>"ab"</code> from <code>"c<u>ab</u>xbae"</code> it becomes <code>"cxbae"</code>.</li>
+</ul>
+</li>
+<li>Remove substring <code>"ba"</code> and gain <code>y</code> points.
+<ul>
+	<li>For example, when removing <code>"ba"</code> from <code>"cabx<u>ba</u>e"</code> it becomes <code>"cabxe"</code>.</li>
+</ul>
+</li>
 </ul>
 
 <p>Return <em>the maximum points you can gain after applying the above operations on</em> <code>s</code>.</p>
