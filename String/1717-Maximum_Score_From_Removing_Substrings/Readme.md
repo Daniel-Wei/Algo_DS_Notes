@@ -1,17 +1,17 @@
 <h2><a href="https://leetcode.com/problems/maximum-score-from-removing-substrings/">1717. Maximum Score From Removing Substrings</a></h2><h3>Medium</h3><hr><div><p>You are given a string <code>s</code> and two integers <code>x</code> and <code>y</code>. You can perform two types of operations any number of times.</p>
 
 <ul>
-	<li>Remove substring <code>"ab"</code> and gain <code>x</code> points.
+<li>Remove substring <code>"ab"</code> and gain <code>x</code> points.
 
-	<ul>
-		<li>For example, when removing <code>"ab"</code> from <code>"c<u>ab</u>xbae"</code> it becomes <code>"cxbae"</code>.</li>
-	</ul>
-	</li>
-	<li>Remove substring <code>"ba"</code> and gain <code>y</code> points.
-	<ul>
-		<li>For example, when removing <code>"ba"</code> from <code>"cabx<u>ba</u>e"</code> it becomes <code>"cabxe"</code>.</li>
-	</ul>
-	</li>
+<ul>
+	<li>For example, when removing <code>"ab"</code> from <code>"c<u>ab</u>xbae"</code> it becomes <code>"cxbae"</code>.</li>
+</ul>
+</li>
+<li>Remove substring <code>"ba"</code> and gain <code>y</code> points.
+<ul>
+	<li>For example, when removing <code>"ba"</code> from <code>"cabx<u>ba</u>e"</code> it becomes <code>"cabxe"</code>.</li>
+</ul>
+</li>
 </ul>
 
 <p>Return <em>the maximum points you can gain after applying the above operations on</em> <code>s</code>.</p>
