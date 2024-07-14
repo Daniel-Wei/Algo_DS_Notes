@@ -1,3 +1,5 @@
+// Time: 45 ms (45.56%), Space: 62.4 MB (38.89%) 
+
 class Solution {
 
     public List<Integer> survivedRobotsHealths(int[] positions, int[] healths, String directions) {
