@@ -1,4 +1,4 @@
-// Time: 1 ms (76.60%), Space: 42.3 MB (46.20%)
+// Time: 0 ms (100.00%), Space: 41.8 MB (79.03%)
 
 class Solution {
     public int minHeightShelves(int[][] books, int shelfWidth) {
