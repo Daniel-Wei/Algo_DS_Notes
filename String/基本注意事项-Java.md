@@ -24,3 +24,6 @@
      - 长度：length
      - char array构建String：char[].toString()
      - String构建char array：string.toCharArray
+
+7. indexOf(str)
+     - get first occurrence of str‘s start index or 0 for no occurrences
