@@ -1,9 +1,30 @@
 ### Priority Queue
   - Queue + Priority
-  - Push：插入
-  - Pop：弹出优先级最高
+  - Insert：插入
+  - 默认为最小优先
+  - Poll：弹出优先级最高
   - Peek：查看优先级最高
   - 按照priority的顺序，linked list，FIFO
+  - PriorityQueue<CustomClass> 中的 Custom Class需要implements Comparable<CustomClass> 以及 override compareTo
+    ```java
+    private class Cell implements Comparable<Cell>{
+        int val;
+        int row;
+        int col;
+
+        public Cell(int val, int row, int col){
+            this.val = val;
+            this.row = row;
+            this.col = col;
+        }
+
+        @Override
+        public int compareTo(Cell other) {
+            // Min-heap comparison
+            return Integer.compare(this.val, other.val);
+        }
+    }
+    ```
 
 ### Heap
   - Insert
