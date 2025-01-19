@@ -26,6 +26,21 @@
     }
     ```
 
+- compareTo
+  ```java
+  @Override
+  public int compareTo(Cell other) {
+      // Min-heap comparison: as if this.val < other.val, res = this.val - other val < 0, no position swapping, 'this' is before 'other'
+      return Integer.compare(this.val, other.val);
+  }
+
+  @Override
+  public int compareTo(Cell other) {
+      // Man-heap comparison: as if this.val > other.val, res = other.val - this.val < 0, swap positions, 'this' is before 'other'
+      return Integer.compare(other.val, this.val);
+  }
+  ```
+
 ### Heap
   - Insert
     - 第一步和Binary tree类似，但是不需要比较数值
